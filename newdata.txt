@@ -1,0 +1,27 @@
+# Processors added to the comparison
+# Threads := No. of logical cores (SMT threads counted separately)
+#
+# Intel (see http://en.wikipedia.org/wiki/List_of_Intel_Xeon_microprocessors#Nehalem-based_Xeons)
+# AMD (see http://www.techarp.com/showarticle.aspx?artno=354&pgno=2)
+#
+# Name         Year     Trans.(10^9)   SpecInt    Freq (GHz)  TDP    Threads   Notes
+Xeon X5690     2011.02  1.17           46.7       3.47        130    12      # http://www.anandtech.com/show/5553/the-xeon-e52600-dual-sandybridge-for-servers/2
+Xeon E7-8870   2011.04  2.6            39.4       2.4         130    20
+Opteron 4284   2011.11  1.2            33.6       3.0          95     8
+Opteron 6284SE 2012.05  2.4            31.8       3.1         140    16
+Xeon E5-2690   2012.05  2.3            59.0       2.9         130    16      # http://www.anandtech.com/show/5553/the-xeon-e52600-dual-sandybridge-for-servers/2
+Power7+ 780    2012.08  2.1            ??         3.7         200    32      # TDP: http://arstechnica.com/civis/viewtopic.php?f=8&t=40992
+Opteron 6380   2012.11  1.2            33.7       2.5         115    16
+Xeon Phi       2013.05  5.0            ??         1.2         300    240
+Xeon E5-2697v2 2013.09  4.3            59.6       2.7         130    24      # http://wccftech.com/intel-announces-ivy-bridge-ep-xeon/
+Xeon E7-4890v2 2014.02  4.3            59.9       2.8         155    30
+Power8 S814    2014.06  4.2            ??         3.7         200    64      # TDP taken from Power7+
+Xeon E5-2667v3 2014.09  2.6            66.4       3.2         135    16
+Xeon E5-2690v3 2014.09  3.8            65.4       2.6         135    24
+Xeon E5-2699v3 2014.09  5.7            66.1       2.3         145    36
+Xeon E5-2699v4 2016.04  7.2            73.9       2.2         145    44
+Xeon Phi 7290  2016.06  ??             ??         1.5         245    272
+Power8         2016.08  8.0            ??         4.0         ??     96      # Freq. approximate, TDP unknown
+Epyc 7601      2017.06  19.2           ??         2.2         180    64
+Xeon Gold 6152 2017.07  ??             77.9       2.1         140    44
+Xeon Pl. 8180  2017.07  ??             83.6       2.5         205    56
