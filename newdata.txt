@@ -1,8 +1,12 @@
-# Processors added to the comparison
+# Processors added to the comparison (data prior to 2011 was extracted with g3data from the original '35 years ...' plot)
 # Threads := No. of logical cores (SMT threads counted separately)
 #
 # Intel (see http://en.wikipedia.org/wiki/List_of_Intel_Xeon_microprocessors#Nehalem-based_Xeons)
 # AMD (see http://www.techarp.com/showarticle.aspx?artno=354&pgno=2)
+#
+# Note on SpecInt results:
+#   Data up to 2017 from SpecINT 2006 database at https://www.spec.org/cpu2006/results/
+#   Data after 2017 from SpecINT 2017 database at https://www.spec.org/cpu2017/results/, converted by a factor of 9.0 (empirically determined by comparing results for Xeon Platinum 8180)
 #
 # Name         Year     Trans.(10^9)   SpecInt    Freq (GHz)  TDP    Threads   Notes
 Xeon X5690     2011.02  1.17           46.7       3.47        130    12      # http://www.anandtech.com/show/5553/the-xeon-e52600-dual-sandybridge-for-servers/2
@@ -24,4 +28,8 @@ Xeon Phi 7290  2016.06  ??             ??         1.5         245    272
 Power8         2016.08  8.0            ??         4.0         ??     96      # Freq. approximate, TDP unknown
 Epyc 7601      2017.06  19.2           ??         2.2         180    64
 Xeon Gold 6152 2017.07  ??             77.9       2.1         140    44
-Xeon Pl. 8180  2017.07  ??             83.6       2.5         205    56
+Xeon Pl. 8180  2017.07  ??             83.6       2.5         205    56      # SpecInt 2017: 9.31
+Power9 AC922   2018.04  8.0            ??         3.4         190    88      # TDP taken from comparable Power9 processors
+Quadro GV100   2018.05  21.1           ??         1.2         250    80      # GPU; 80 SMs
+Xeon Pl. 8280  2019.03  8.0            90.9       2.7         205    56      # SpecInt 2017: 10.1
+Epyc 7742      2019.08  39.5           78.3       2.25        225    128     # SpecInt 2017: 8.7
