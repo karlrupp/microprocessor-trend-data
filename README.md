@@ -2,8 +2,9 @@
 
 This repository contains the raw data used in my blog series on microprocessor trend data:
 
+  * [50 Years of Microprocessor Trend Data](https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/)
+    ![50 Years of Microprocessor Trend Data Chart](https://github.com/karlrupp/microprocessor-trend-data/blob/master/50yrs/50-years-processor-trend.png?raw=true)
   * [48 Years of Microprocessor Trend Data](https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/)
-    ![48 Years of Microprocessor Trend Data Chart](https://github.com/karlrupp/microprocessor-trend-data/blob/master/48yrs/48-years-processor-trend.png?raw=true)
   * [42 Years of Microprocessor Trend Data](https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/)
   * [40 Years of Microprocessor Trend Data](https://www.karlrupp.net/2015/06/40-years-of-microprocessor-trend-data/)
 
